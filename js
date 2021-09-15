@@ -39,7 +39,7 @@ const loadDetail = detailId => {
   // fetch(url)
   //   .then((response) => response.json())
   //   .then((data) => loadDetail(data));
-  fetch('https://fakestoreapi.com/products/${id}')
+  fetch(`https://fakestoreapi.com/products/${id}`)
 
     .then(res => res.json())
     .then(data => displayDetail(data))
